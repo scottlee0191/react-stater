@@ -28,7 +28,7 @@ pnpm run dev
 
 ## Roadmap
 
-- [ ] Error Handling
+- [ x ] Error Handling
 - [ ] Tailwind
 - [ ] Cypress
 - [ ] Deploy
