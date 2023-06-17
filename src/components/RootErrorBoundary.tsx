@@ -1,11 +1,17 @@
 import React from 'react';
+import { AlertCircle } from 'lucide-react';
 import { ErrorBoundary } from 'react-error-boundary';
+
+import { Alert, AlertDescription, AlertTitle } from './alert';
 
 function ErrorFallback({ error }: { error: Error }) {
   return (
-    <div role="alert">
-      <p>Something went wrong:</p>
-      <pre style={{ color: 'red' }}>{error.message}</pre>
+    <div className="container max-w-2xl py-6">
+      <Alert variant="destructive">
+        <AlertCircle className="h-4 w-4" />
+        <AlertTitle>Error</AlertTitle>
+        <AlertDescription>{error.message}</AlertDescription>
+      </Alert>
     </div>
   );
 }
