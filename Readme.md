@@ -40,7 +40,8 @@ pnpm run dev
 
 - [ x ] Error Handling
 - [ x ] Tailwind
-- [ ] Cypress
+- [ x ] Cypress
+- [ ] Basic UI
 - [ ] Deploy
 - [ ] Authentication
 - [ ] Authorization
